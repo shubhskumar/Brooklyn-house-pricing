@@ -4,7 +4,6 @@ library(lubridate)
 library(ggplot2)
 library(lmtest)
 
-setwd("C:\\Users\\shubh\\OneDrive - Indian Institute of Technology Bombay\\Documents\\College\\Grad - UChicago\\Courses\\Autumn 2023\\Statistical Analysis\\Assignments\\Final Assignment")
 
 filtered_data <- read.csv("filtered_data.csv",header=TRUE)
 head(filtered_data)
